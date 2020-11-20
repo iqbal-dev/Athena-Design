@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div  style={{height: '100vh',}}>
+        <div>
             <div className="header-container">
                 <Navbar></Navbar>
                 <Banner></Banner>
