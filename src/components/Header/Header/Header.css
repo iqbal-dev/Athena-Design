@@ -1,0 +1,7 @@
+.header-container{
+    background-image: url(../../../image/headerbg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -33px;
+}

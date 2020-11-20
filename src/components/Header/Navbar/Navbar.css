@@ -1,0 +1,80 @@
+.nab-bar{
+
+}
+.nav-bar ul{
+
+}
+.nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+    width: 110px;
+    text-align: center;
+}
+.nav-bar ul li a{
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #000 !important;
+    transition:0.3s;
+}
+.nav-bar ul li a:hover{
+    display: block;
+    text-decoration: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10px;
+    background: #1e5799;
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 51%,#207cca 51%,#7db9e8 100%);
+    color: #fff !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+}
+
+/* .nav-bar ul li a .button:hover{
+    position:relative;
+    overflow:hidden;
+    margin:20px;
+    width:150px;
+    height:55px;
+    -moz-border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;
+}
+
+.nav-bar ul li a .button-text:hover {
+    color:white;
+    left:30px;
+    top:7px;
+    position:absolute;
+    font-size:30px;
+    font-weight:bold;
+    z-index:999;
+}
+.nav-bar ul li a .curled-bottom:hover {
+   -moz-border-radius:0 0 50px 50px / 0 0 30px 30px;
+    border-radius:0 0 50px 50px / 0 0 30px 30px;
+    border-color:white white black;
+    background-color:#75CDF9;
+}
+
+.nav-bar ul li a .curled-top:hover {
+    margin-top:16px;
+   -moz-border-radius:50px 50px 0 0 /30px 30px 0 0 ;
+    border-radius:50px 50px 0 0 / 30px 30px 0 0 ;
+    border-color:black white white;
+    background-color:#28B5FC;
+}
+
+.nav-bar ul li  a .curled:hover {
+    position:absolute;
+    border-width:0px;
+    width:100px;
+    height:40px;
+}
+
+.nav-bar ul li a .bottom:hover {
+    z-index:-1;
+}
+
+.nav-bar ul li a .upon:hover {
+    
+} */
+ 
