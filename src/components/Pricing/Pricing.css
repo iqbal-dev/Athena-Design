@@ -1,0 +1,44 @@
+.pricing-area{
+    margin-top: 100px;
+}
+
+.bg-image{
+    background-image: url(../../images/bgPricing.png);
+    background-repeat: no-repeat;
+ 
+}
+
+.container{
+    align-items: center;
+    float: center;
+    margin-bottom: 80px;
+}
+
+.search-box{
+    float: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 420px;
+}
+
+.title-area{
+    margin-bottom: 80px;
+}
+
+.title-text{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.card-area{
+    width: 200px;
+    height: auto;
+    margin-left: 60px;
+}
+.card-inner{
+    
+    margin: 30px;
+}
+.underline{
+    border: 1px solid #4FD1CB;
+}
