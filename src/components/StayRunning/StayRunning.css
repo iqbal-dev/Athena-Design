@@ -1,0 +1,33 @@
+.button-contact {
+    background-image: linear-gradient(to right, #1CD7BB 0%, #07aced 100%) !important;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    width: 35%;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+@media (max-width: 576px) { 
+    .button-contact{
+        width:50%;
+        }
+ }
+
+
+@media (max-width: 768px) { 
+    .button-contact{
+        width:50%;
+        }
+}
+
+
+@media (max-width: 992px) { 
+        .button-contact{
+          width:50%;
+          }
+ }
+

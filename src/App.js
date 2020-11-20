@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import StaRunning from './components/StayRunning/StayRunning';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+     <StaRunning />
+   
+    </>
   );
 }
 
