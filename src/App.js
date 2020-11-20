@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+
+import StaRunning from './components/StayRunning/StayRunning';
 import Header from './components/Header/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <Header></Header>
-    </div>
+    <>
+     <Header></Header>
+     <StaRunning />
+   
+    </>
   );
 }
 

@@ -1,0 +1,86 @@
+.achive-card {
+    
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    width: 40%;
+    height: 100px;
+    color:rgb(49, 47, 47);
+    text-align: center;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.25); 
+      box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.25);
+}
+.happy{
+     
+     background-image: linear-gradient(to right, #1CD7BB 0%, #07aced 100%) !important;
+}
+
+.achive-card:hover{
+    background-image: linear-gradient(to right, #1CD7BB 0%, #07aced 100%) !important;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+@media (max-width: 576px) { 
+    .achive-card{
+        width:100%;
+        }
+    .achive-text{
+        text-align: center;
+    }    
+ }
+ @media (max-width: 625px) { 
+    .achive-card{
+        width:100%;
+        }
+        .achive-text{
+            text-align: center;
+        } 
+}
+
+@media (max-width: 768px) { 
+    .achive-card{
+        width:100% !important;
+        justify-content: center;
+        align-items: center;
+        }
+
+     .achive-text{
+            text-align: center;
+     } 
+}
+
+
+@media (max-width: 992px) { 
+    .achive-card{
+          width:80%;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          }
+          .achive-text{
+            text-align: center;
+            width:100%;
+     }    
+ }
+
+ /* echo "# Athena-Design" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/iqbal-dev/Athena-Design.git
+git push -u origin main */
