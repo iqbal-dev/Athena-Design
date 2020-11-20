@@ -3,25 +3,29 @@
 }
 
 .bg-image{
-    background-image: url(../../images/bgPricing.png);
+    background-image:  url(../../images/bgPricing.png);
     background-repeat: no-repeat;
- 
+    left: -150px;
 }
 
 .container{
-    align-items: center;
-    float: center;
+    margin-left: 90px;
     margin-bottom: 80px;
 }
 
 .search-box{
-    float: center;
     margin-top: 40px;
     margin-bottom: 80px;
     width: 420px;
+    text-align: center;
+    margin-left: 35%;
 }
 
+.text-title{
+    margin-top: 40px;
+}
 .title-area{
+    margin-top: 40px;
     margin-bottom: 80px;
 }
 
@@ -34,11 +38,27 @@
     width: 200px;
     height: auto;
     margin-left: 60px;
+    border: 1px solid;
+    border-style: none;
+    padding: 10px;
+    box-shadow:  10px 5px 10px #a1a1a1;
 }
 .card-inner{
-    
     margin: 30px;
 }
 .underline{
     border: 1px solid #4FD1CB;
+}
+
+.button-buy {
+    background-image: linear-gradient(to right, #1CD7BB 0%, #07aced 100%) !important;
+    align-items: center;
+    margin-top: 35px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    width: 180px;
+    color:#fff;
+    text-align: center;
 }

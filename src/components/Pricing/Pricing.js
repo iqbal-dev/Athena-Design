@@ -5,12 +5,13 @@ import "./Pricing.css"
 const Pricing = () => {
     return (
         <Container fluid className="pricing-area bg-image">
-            <div className="title-area">
-                <h3 className="text-center">Chooos Your Dedicated Team</h3>
-            </div>
+            <div className=" ">
+                <div className="title-area">
+                    <h3 className="text-center text-title">Chooos Your Dedicated Team</h3>
+                </div>
 
-            <CardDeck className="container">
-            <Card className="card-area">
+            <CardDeck className="container text-center">
+            <Card className="card-area ml-5">
                 
                 <Card.Body className="text-center card-inner">
                 <Card.Title>$199</Card.Title>
@@ -28,7 +29,7 @@ const Pricing = () => {
                 </Card.Body>
                
             </Card>
-            <Card className="card-area">
+            <Card className="card-area ml-5">
            
                 <Card.Body className="text-center card-inner">
                 <Card.Title>$399</Card.Title>
@@ -42,11 +43,12 @@ const Pricing = () => {
                     <p>Free Stock Photos </p>
                     <p> 20 Days Free Support </p>
                     <p> 24/7 Support</p>
+                    <div className='button-buy text-center'>Buy Now</div> 
                 </Card.Text>
                 </Card.Body>
                 
             </Card>
-            <Card className="card-area">
+            <Card className="card-area ml-5">
                
                 <Card.Body className="text-center card-inner">
                 <Card.Title>$599</Card.Title>
@@ -66,6 +68,9 @@ const Pricing = () => {
                 
             </Card>
             </CardDeck>
+
+            </div>
+            
 
             <div className="text-center">
             <h3 className="title-text">Get Your Design Right, Right Now </h3>
